@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --primary-color: #534C64;
 }
@@ -16,6 +17,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* Main Container */
 .header-container {
     max-width: 1640px;
@@ -53,7 +55,7 @@ nav {
     font-size: 2.8rem;
     font-weight: 700;
     font-family: Work Sans;
-  
+
 }
 
 .G-colour {
@@ -112,13 +114,14 @@ nav {
 
 /* header part end */
 
-.first-banner{
+.first-banner {
     max-width: 1640px;
     margin: 0 auto 120px;
     display: flex;
 }
+
 .first-banner-text {
-    
+
     width: 701px;
     height: 600px;
     justify-content: right;
@@ -140,17 +143,19 @@ nav {
 .banner-title-subline {
     margin-top: 140px;
     color: #0B0223;
-   padding-left: 180px;
+    padding-left: 180px;
     font-family: Work Sans;
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
 }
+
 .section-title {
     background-image: linear-gradient(to bottom, #FF42A5 0%, #FF42A5 100%);
     color: transparent;
     -webkit-background-clip: text;
 }
+
 .one {
     display: flex;
 }
@@ -177,7 +182,7 @@ nav {
     font-weight: 500;
     text-transform: lowercase;
     padding-left: 180px;
-    
+
 }
 
 .first-banner-buttons {
@@ -186,7 +191,7 @@ nav {
     align-items: flex-start;
     gap: 10px; */
     margin-top: 35px;
-   padding-left: 180px;
+    padding-left: 180px;
 }
 
 .sign-in {
@@ -211,21 +216,26 @@ nav {
     padding: 21px 40px;
 
 }
-.margin{
+
+.margin {
     margin-right: 25px;
 }
-.gap{
-padding-right: 15px;
+
+.gap {
+    padding-right: 15px;
 }
-.first-banner-img{
+
+.first-banner-img {
     width: 50%;
     margin-bottom: 0px;
 }
-.first-banner-img img{
+
+.first-banner-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 /* first-banner-section-end */
 /* online games section here */
 
@@ -244,7 +254,7 @@ padding-right: 15px;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     margin-top: 48px;
-    padding:0px 100px 0px 70px;
+    padding: 0px 100px 0px 70px;
 }
 
 .online-game-title h3 {
@@ -293,7 +303,7 @@ padding-right: 15px;
     align-items: center;
     text-align: right;
     margin-top: 100px;
-    
+
 }
 
 .game-title {
@@ -333,3 +343,141 @@ padding-right: 15px;
 }
 
 /* game play style ends here */
+
+/* game button style starts here */
+
+.game-button-container {
+    max-width: 1640px;
+    margin: 140px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+    justify-content: center;
+}
+
+.btn-game-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px;
+    gap: 16px;
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-game-link:hover {
+    background-image: linear-gradient(to bottom, #FF42A5 0%, #FF42A5 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    border: 2px solid #F948B2;
+    cursor: pointer;
+}
+
+/* /* footer section style starts here */
+
+footer {
+    background-color: #0B0223;
+    padding: 120px 0px;
+}
+
+.footer-image-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.footer-image-icon p {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-list {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.list-one {
+    display: flex;
+    gap: 60px;
+}
+
+.list-two {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-list li {
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.footer-icons {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    gap: 40px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.icons-one {
+    display: flex;
+    gap: 40px;
+}
+
+.icons-two {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 28px;
+}
+
+.privacy-one {
+    display: flex;
+    gap: 60px;
+}
+
+.privacy-two {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-privacy li {
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+/* footer-end */
