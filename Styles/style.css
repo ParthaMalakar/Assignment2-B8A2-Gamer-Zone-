@@ -2,21 +2,28 @@
 
 
 * {
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #534C64;
+}
 
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
 /* Main Container */
 .header-container {
+    max-width: 1640px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    max-width: 1400px;
-    /* margin: 0 auto; */
-    padding-left: 180px;
-    padding-top: 40px;
-    padding-right: 70px;
+    padding: 38px 70px;
+    margin-left: 100px;
 }
 
 nav {
@@ -28,23 +35,25 @@ nav {
 
 /* Left header part */
 .header-container-logo {
-    display: flex;
     width: 50%;
+    display: flex;
     align-items: center;
+    gap: 20px;
 
 }
 
 .header-img {
     width: 86.041px;
     height: 40px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .header-name {
     text-align: center;
-    font-family: Work Sans;
-    font-size: 35px;
+    font-size: 2.8rem;
     font-weight: 700;
+    font-family: Work Sans;
+  
 }
 
 .G-colour {
@@ -55,14 +64,18 @@ nav {
 .header-container-menu a {
 
     text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #3C354F;
 }
 
 .header-container-menu {
     /* margin-top: 25px; */
     width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
+    gap: 32px;
 
 }
 
@@ -98,16 +111,30 @@ nav {
 }
 
 /* header part end */
+
+.first-banner{
+    max-width: 1640px;
+    margin: 0 auto 120px;
+    display: flex;
+}
 .first-banner-text {
+    
     width: 701px;
     height: 600px;
     justify-content: right;
 }
 
 .first-banner-container {
+    width: 50%;
     display: flex;
-    height: 600px;
-    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Group\ 14.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
 }
 
 .banner-title-subline {
@@ -180,13 +207,70 @@ nav {
     padding: 21px 40px;
 
 }
+.margin{
+    margin-right: 25px;
+}
 .gap{
 padding-right: 15px;
 }
 .first-banner-img{
-    width: 45%;
+    width: 50%;
     margin-bottom: 0px;
 }
 .first-banner-img img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+/* first-banner-section-end */
+/* online games style starts here */
+
+
+.online-games-section {
+    max-width: 1640px;
+    margin: 0 auto 120px;
+}
+
+.online-game-title {
+    text-align: center;
+}
+
+.online-game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+    padding:0px 100px 0px 70px;
+}
+
+.online-game-title h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.online-game-title p {
+
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.game-card img {
+    width: 100%;
+}
+
+.game-card {
+    width: 330px;
+
+}
+
+.game-card p {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* online games style ends here */
