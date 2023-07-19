@@ -1,0 +1,154 @@
+@media screen and (max-width: 576px) {
+
+    .nav-container,
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .btn-icon,
+    .btn-icon-two {
+        font-size: 16px;
+        margin: 0px 0px;
+    }
+
+    .nav-items-container {
+        margin-top: 45px;
+    }
+
+    .nav-button {
+        margin-top: 20px;
+    }
+
+    .nav {
+        background: none;
+        box-shadow: none;
+    }
+
+    /* nav style ends here*/
+
+    /* nav style starts here*/
+
+    .first-banner {
+        flex-direction: column-reverse;
+        padding: 5px;
+    }
+
+    .first-banner-img {
+        width: 80%;
+        margin: 0 auto 24px;
+
+    }
+
+    .first-banner-container {
+        width: 100%;
+        padding: 10px;
+    }
+    .first-banner-text {
+        padding-left: 0px;
+        margin-left: 0px;
+        height: 500px;
+    }
+    .sign-in{
+        padding: 11px 20px;
+
+    }
+    .go-rogue{
+        padding: 11px 20px;
+    }
+    .banner-title-subline{
+        padding-left: 100px;
+        margin-top: 30px;
+        font-size: 3rem;
+    }
+    .banner-title{
+        padding-left: 100px;
+
+        font-size: 3.5rem;
+    }
+    .subline{
+        padding-left: 100px;
+    }
+    .first-banner-buttons{
+        padding-left: 100px;
+
+    }
+
+    /* nav style ends here*/
+
+    /* online game style starts here*/
+
+    .online-game-container {
+
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        margin-top: 30px;
+        padding: 0;
+    }
+   
+    /* .online-game-title p {
+        font-size: 2rem;
+    } */
+
+    .game-card {
+        width: 80%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .game-card p {
+        font-size: 1.6rem;
+    }
+
+    .online-game-title h3 {
+        font-size: 3rem;
+    }
+
+    .online-game-title p {
+        font-size: 1rem;
+    }
+
+    /* online game style end here*/
+
+    /* game play style starts */
+    .game-play-container {
+        flex-direction: column;
+        padding: 10px 0px;
+
+    }
+    .game-content{
+        margin-top: 10px;
+    }
+
+    .litle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .game-img {
+        width: 70%;
+        margin: 75px auto 0;
+    }
+
+    .game-content {
+        width: 100%;
+        text-align: center;
+    }
+    .game-button-container{
+    display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .btn-game-link{
+        font-size: 0.5rem;
+        padding: 3px;
+        gap: 5px;
+    }
+
+    /* game play style starts */
+
+    .footer-list,
+    .footer-icons,
+    .footer-privacy {
+        flex-direction: column;
+    }
+}
+
