@@ -254,6 +254,80 @@ body {
 
 }
 
+.game-card {
+    position: relative;
+    display: inline-block;
+}
+
+/* Styles for the overlay container */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.2s, opacity 0.2s;
+    /* take help from chatgpt only for this opacity*/
+
+}
+
+.game-card:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+    /* Remove the transition delay for immediate visibility */
+}
+
+.icon {
+
+    fill: #ffffff;
+    font-size: 100px;
+}
+
+#icon1 {
+    /* Adjust the icon size as needed */
+
+    fill: #ffffff;
+    font-size: 100px;
+}
+
+.hover-title {
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .game-card .overlay :hover{
+    cursor: pointer;
+    display: block;
+} */
+/* .game-card img:hover .overlay {
+    border: 5px solid #F948B2;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+} */
+/* .game-card .overlay button :hover{
+    border: 5px solid #F948B2;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+} */
+
 .game-card p {
     color: var(--primary-color);
     font-size: 1.1rem;
@@ -373,14 +447,17 @@ footer {
     font-weight: 700;
     color: #fff;
 }
-.icons-one a{
+
+.icons-one a {
     text-decoration: none;
     color: white;
 }
-.icons-two a{
+
+.icons-two a {
     text-decoration: none;
     color: white;
 }
+
 .footer-list {
 
     display: flex;
