@@ -19,24 +19,23 @@ body {
 }
 
 /* Main Container */
-.header-container {
-    max-width: 1640px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    padding: 38px 70px;
-    margin-left: 100px;
-}
 
-nav {
-    width: 100%;
-    height: 130px;
+.navber {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
-/* Left header part */
-.header-container-logo {
+.nav-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 38px 0px;
+
+
+}
+
+.logo-container {
     width: 50%;
     display: flex;
     align-items: center;
@@ -44,73 +43,46 @@ nav {
 
 }
 
-.header-img {
-    width: 86.041px;
-    height: 40px;
-    /* margin-right: 20px; */
-}
-
-.header-name {
-    text-align: center;
+.nav-container p {
     font-size: 2.8rem;
     font-weight: 700;
-    font-family: Work Sans;
-
 }
 
-.G-colour {
-    color: #FF42A5;
+
+
+.nav-items-container {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 32px;
 }
 
-/* Right header part */
-.header-container-menu a {
-
+.nav-items-container a {
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
     color: #3C354F;
 }
 
-.header-container-menu {
-    /* margin-top: 25px; */
-    width: 50%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 32px;
-
-}
-
-.menu {
-    color: #3C354F;
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-#icon1 {
-    width: 30.916px;
-    height: 25px;
-    text-align: center;
-}
-
-.icon-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border: 1px solid red;
-    width: 262px;
-    height: 56px;
+.nav-button {
+    padding: 18px 24px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 24px 17px;
 }
 
-#icon2 {
-    width: 24px;
-    height: 24px;
+.btn-icon {
+    color: red;
+    margin: 0px 16px 0px 24px;
+    font-size: 1.2rem;
+
 }
+
+.btn-icon-two {
+    font-size: 20px;
+}
+
+
 
 /* header part end */
 
