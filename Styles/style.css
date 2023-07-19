@@ -373,7 +373,14 @@ footer {
     font-weight: 700;
     color: #fff;
 }
-
+.icons-one a{
+    text-decoration: none;
+    color: white;
+}
+.icons-two a{
+    text-decoration: none;
+    color: white;
+}
 .footer-list {
 
     display: flex;
